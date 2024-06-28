@@ -19,9 +19,9 @@ function Header() {
         <nav
           className={`container text-4xl ${
             openBurger
-              ? "flex flex-col text-center py-8 z-0"
+              ? "flex flex-col text-center py-16 z-0"
               : "hidden md:flex md:flex-row md:px-32"
-          } min-w-full py-5 lg:px-80 justify-around backdrop-brightness-75 animate-fade-down animate-once animate-duration-[2000ms] animate-ease-in`}
+          } min-w-full py-5 lg:px-96 justify-around backdrop-brightness-75 animate-fade-down animate-once animate-duration-[2000ms] animate-ease-in`}
         >
           <a
             className="relative group transition duration-300"
@@ -75,7 +75,7 @@ function Header() {
         </div>
       </div>
       <div className="flex-grow flex items-center justify-center rounded-full ">
-        <h1 className="text-6xl fixed md:static top-2/3 md:text-8xl lg:text-9xl text-center md:mt-60 backdrop-brightness-75 px-8 py-2 animate-fade-left animate-once animate-duration-[2000ms] animate-ease-in">
+        <h1 className="text-6xl fixed md:static top-2/3 md:text-8xl lg:text-9xl text-center md:mt-60 w-[100%] backdrop-brightness-75 px-8 py-2 animate-fade-left animate-once animate-duration-[2000ms] animate-ease-in">
           Haras du Lorem Ipsum
         </h1>
       </div>
