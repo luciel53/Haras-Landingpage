@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
 	<section>
-		<h2 id='Contact'>Contact</h2>
+		<h2 id='Contact' className="text-center text-4xl mt-5">Contact</h2>
 	</section>
   );
 }

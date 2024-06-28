@@ -2,8 +2,8 @@ import React from "react";
 
 function Team() {
   return (
-	<section>
-		<h2 id='Team'>Team</h2>
+	<section className="h-screen">
+		<h2 id='Team' className="text-center text-4xl mt-5">Team</h2>
 	</section>
   );
 }
