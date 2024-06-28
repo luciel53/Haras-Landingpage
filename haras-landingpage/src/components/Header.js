@@ -75,7 +75,7 @@ function Header() {
         </div>
       </div>
       <div className="flex-grow flex items-center justify-center rounded-full ">
-        <h1 className="text-6xl fixed md:static top-2/3 md:text-8xl lg:text-9xl text-center md:mt-60 w-[100%] backdrop-brightness-75 px-8 py-2 animate-fade-left animate-once animate-duration-[2000ms] animate-ease-in">
+        <h1 className="text-6xl absolute md:static top-2/3 md:text-8xl lg:text-9xl text-center md:mt-60 w-[100%] h-48 backdrop-brightness-75 px-8 py-8 animate-fade-left animate-once animate-duration-[2000ms] animate-ease-in">
           Haras du Lorem Ipsum
         </h1>
       </div>
