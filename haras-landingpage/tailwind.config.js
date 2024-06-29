@@ -9,7 +9,7 @@ module.exports = {
         'tangerine': ['tangerine'],
       },
       colors: {
-        clifford: "#da373d",
+        darkBrown: '#292621',
         golden: "#FFBE82",
       },
       backgroundImage: {
