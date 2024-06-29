@@ -24,7 +24,7 @@ function Header() {
           } min-w-full py-5 lg:px-96 justify-around backdrop-brightness-75 animate-fade-down animate-once animate-duration-[2000ms] animate-ease-in`}
         >
           <a
-            className="relative group transition duration-300"
+            className="relative group transition duration-300 md:pr-4"
             href="#Histoire"
             onClick={closeMenu}
           >
@@ -32,7 +32,7 @@ function Header() {
             <span className="absolute left-0 bottom-0 w-0 h-0.25 bg-golden transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            className="relative group transition duration-300"
+            className="relative group transition duration-300 md:pr-4"
             href="#Installations"
             onClick={closeMenu}
           >
@@ -40,7 +40,7 @@ function Header() {
             <span className="absolute left-0 bottom-0 w-0 h-0.25 bg-golden transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            className="relative group transition duration-300"
+            className="relative group transition duration-300 md:pr-4"
             href="#Services"
             onClick={closeMenu}
           >
@@ -48,7 +48,7 @@ function Header() {
             <span className="absolute left-0 bottom-0 w-0 h-0.25 bg-golden transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            className="relative group transition duration-300"
+            className="relative group transition duration-300 md:pr-4"
             href="#Contact"
             onClick={closeMenu}
           >

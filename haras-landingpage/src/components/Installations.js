@@ -14,15 +14,21 @@ function Installations() {
   ];
 
   return (
-    <section className="bg-darkBrown h-screen mb-10 pt-1">
+    <section className="bg-darkBrown  mb-10 pt-1">
       <h2
         id="Installations"
-        className="text-center text-golden text-4xl md:text-6xl lg:text-8xl mt-5 md:mt-10 mb-4 md:mb-8"
+        className="text-center text-golden text-4xl md:text-6xl lg:text-8xl mt-5 md:mt-10 mb-4 md:mb-0 lg:mb-7"
       >
         Installations
       </h2>
       <div className=" text-golden text-2xl text-center mx-auto">
         <Carousel images={installationsImg} />
+        <div className=" text-left md:text-4xl lg:text-6xl ml-28 md:ml-[35%] lg:ml-[40%] py-4 md:py-3">
+          <p>- Manège de 20 * 60 m</p>
+          <p>- Carrière de 40 * 70 m</p>
+          <p>- Ecurie de 30 box</p>
+          <p className="md:pb-6">- 8 paddocks sur 10 hectares</p>
+        </div>
       </div>
     </section>
   );

@@ -3,7 +3,7 @@ import castle from "../assets/images/castle.png";
 
 function Story() {
   return (
-    <section className="mb-10">
+    <section className="mb-0 md:mb-10">
       <h2
         id="Histoire"
         className="text-center text-4xl md:text-6xl lg:text-8xl mt-5 md:mt-10 mb-4 md:mb-8"
