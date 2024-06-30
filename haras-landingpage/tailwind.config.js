@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         darkBrown: '#292621',
         golden: "#FFBE82",
+        lightGray: "#D9D9D9",
       },
       backgroundImage: {
         headerBg: "url('/src/assets/images/headerBg.png')",
