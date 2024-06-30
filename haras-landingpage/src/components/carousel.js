@@ -36,6 +36,9 @@ function Carousel({ images }) {
               className="absolute block w-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt={image.alt}
             />
+            <div className="absolute bottom-36 left-0 right-0 text-darkBrown text-2xl md:text-5xl text-center p-2">
+              {image.caption}
+            </div>
           </div>
         ))}
       </div>
@@ -46,7 +49,7 @@ function Carousel({ images }) {
             key={index}
             type="button"
             className={`w-3 md:w-5 h-3 md:h-5 shadow-2xl md:mb-8 rounded-full ${
-              index === currentIndex ? "bg-golden" : "bg-white"
+              index === currentIndex ? "bg-golden" : "bg-lightGray"
             }`}
             aria-current={index === 0 ? "true" : "false"}
             aria-label={`Slide ${index + 1}`}
@@ -117,6 +120,7 @@ Carousel.propTypes = {
       alt: PropTypes.string.isRequired,
       width: PropTypes.string.isRequired,
       height: PropTypes.string.isRequired,
+      caption: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

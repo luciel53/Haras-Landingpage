@@ -34,7 +34,7 @@ function Contact() {
             />
           </div>
           <button
-            className="bg-golden md:text-4xl text-center w-16 md:w-32 md:h-12 rounded-md mx-auto md:mt-2 lg:mt-8 shadow-lg"
+            className="bg-golden md:text-4xl text-center w-16 md:w-32 md:h-12 rounded-md mx-auto md:mt-2 lg:mt-8 shadow-lg hover:opacity-85"
             type="submit"
           >
             Envoyer
