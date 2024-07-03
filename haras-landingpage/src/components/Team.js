@@ -12,15 +12,15 @@ function Team() {
   ];
 
   return (
-    <section className="">
+    <section>
       <h2
         id="Team"
-        className="text-center text-4xl md:text-6xl lg:text-8xl lg:pt-5"
+        className="text-center text-4xl md:text-6xl lg:text-8xl -mt-4 lg:pt-5"
       >
         Team
       </h2>
-      <div className="-mt-28 pb-10">
-        <Carousel images={teamImg} />
+      <div className="-mt-2 md:-mt-28 pb-10">
+        <Carousel images={teamImg} isTeam={true} />
       </div>
     </section>
   );

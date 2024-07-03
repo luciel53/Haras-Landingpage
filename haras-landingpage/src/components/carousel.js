@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-function Carousel({ images }) {
+function Carousel({ images, isTeam }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrevClick = () => {
@@ -26,17 +26,17 @@ function Carousel({ images }) {
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute inset-0  transition-opacity duration-700 ease-in-out ${
+            className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
               index === currentIndex ? "opacity-100" : "opacity-0"
             }`}
             data-carousel-item
           >
             <img
               src={image.src}
-              className="absolute block w-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className={`absolute block ${isTeam ? 'h-28 md:h-64 lg:h-80' : 'h-auto'} w-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2`}
               alt={image.alt}
             />
-            <div className="absolute bottom-36 left-0 right-0 text-darkBrown text-2xl md:text-5xl text-center p-2">
+            <div className={`absolute ${isTeam ? 'bottom-5 md:bottom-40 lg:bottom-36' : 'bottom-36'} left-0 right-0 text-darkBrown text-2xl md:text-5xl text-center p-2`}>
               {image.caption}
             </div>
           </div>
@@ -48,7 +48,7 @@ function Carousel({ images }) {
           <button
             key={index}
             type="button"
-            className={`w-3 md:w-5 h-3 md:h-5 shadow-2xl md:mb-8 rounded-full ${
+            className={`w-2 md:w-5 h-2 md:h-5 shadow-2xl md:mb-8 rounded-full ${
               index === currentIndex ? "bg-golden" : "bg-lightGray"
             }`}
             aria-current={index === 0 ? "true" : "false"}
@@ -123,6 +123,11 @@ Carousel.propTypes = {
       caption: PropTypes.string.isRequired,
     })
   ).isRequired,
+  isTeam: PropTypes.bool,
+};
+
+Carousel.defaultProps = {
+  isTeam: false,
 };
 
 export default Carousel;
