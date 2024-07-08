@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Haras-Landingpage/static/css/main.fe9e3aef.css",
-    "main.js": "/Haras-Landingpage/static/js/main.fd1e5657.js",
+    "main.css": "/Haras-Landingpage/static/css/main.4fb3cc54.css",
+    "main.js": "/Haras-Landingpage/static/js/main.b3438f2f.js",
     "static/media/stable.png": "/Haras-Landingpage/static/media/stable.8056552e0c747fd0b652.png",
     "static/media/headerBg.png": "/Haras-Landingpage/static/media/headerBg.8776fe6227a9fadcc557.png",
     "static/media/paddocks.png": "/Haras-Landingpage/static/media/paddocks.4eb25a4c4b377748185a.png",
@@ -15,11 +15,11 @@
     "static/media/Emma.png": "/Haras-Landingpage/static/media/Emma.37abff8273a503dd8ee3.png",
     "static/media/burger.svg": "/Haras-Landingpage/static/media/burger.99249483ab99583eb7ce668bcd85ad12.svg",
     "index.html": "/Haras-Landingpage/index.html",
-    "main.fe9e3aef.css.map": "/Haras-Landingpage/static/css/main.fe9e3aef.css.map",
-    "main.fd1e5657.js.map": "/Haras-Landingpage/static/js/main.fd1e5657.js.map"
+    "main.4fb3cc54.css.map": "/Haras-Landingpage/static/css/main.4fb3cc54.css.map",
+    "main.b3438f2f.js.map": "/Haras-Landingpage/static/js/main.b3438f2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9e3aef.css",
-    "static/js/main.fd1e5657.js"
+    "static/css/main.4fb3cc54.css",
+    "static/js/main.b3438f2f.js"
   ]
 }
