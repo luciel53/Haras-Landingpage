@@ -1,7 +1,7 @@
 {
   "name": "haras-landingpage",
   "version": "0.1.0",
-  "homepage": "https://luciel53.github.io/Haras-landingpage/haras-landingpage",
+  "homepage": "https://luciel53.github.io/Haras-Landingpage",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
