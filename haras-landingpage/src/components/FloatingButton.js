@@ -28,11 +28,11 @@ function FloatingButton() {
   };
 
   return (
-    <div className="fixed bottom-10 right-10 z-30">
+    <div className="fixed bottom-5 right-5 md:bottom-10 md:right-10 z-30">
       {isVisible && (
         <button
           onClick={scrollTop}
-          className="bg-golden text-darkBrown p-3 rounded-full shadow-2xl hover:bg-yellow-600 transition duration-300 hover:animate-jump"
+          className="bg-golden text-darkBrown p-1 md:p-3 rounded-full shadow-2xl hover:bg-yellow-600 transition duration-300 hover:animate-jump"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
