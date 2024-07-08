@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Haras-landingpage/haras-landingpage/static/css/main.04dd43d7.css",
-    "main.js": "/Haras-landingpage/haras-landingpage/static/js/main.3939d93a.js",
-    "static/media/stable.png": "/Haras-landingpage/haras-landingpage/static/media/stable.8056552e0c747fd0b652.png",
-    "static/media/headerBg.png": "/Haras-landingpage/haras-landingpage/static/media/headerBg.8776fe6227a9fadcc557.png",
-    "static/media/paddocks.png": "/Haras-landingpage/haras-landingpage/static/media/paddocks.4eb25a4c4b377748185a.png",
-    "static/media/jumping.png": "/Haras-landingpage/haras-landingpage/static/media/jumping.fb49c505c5d96338d836.png",
-    "static/media/manege.png": "/Haras-landingpage/haras-landingpage/static/media/manege.a16c74411d2298342f35.png",
-    "static/media/castle.png": "/Haras-landingpage/haras-landingpage/static/media/castle.893b2a6124d2001c4827.png",
-    "static/media/ride.png": "/Haras-landingpage/haras-landingpage/static/media/ride.f403ff72c818619a00e3.png",
-    "static/media/franck.png": "/Haras-landingpage/haras-landingpage/static/media/franck.b659ead7a9f8307f3779.png",
-    "static/media/Tangerine_Regular.ttf": "/Haras-landingpage/haras-landingpage/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
-    "static/media/Suzie.png": "/Haras-landingpage/haras-landingpage/static/media/Suzie.64b9e53133dc88ce27e8.png",
-    "static/media/Emma.png": "/Haras-landingpage/haras-landingpage/static/media/Emma.37abff8273a503dd8ee3.png",
-    "static/media/burger.svg": "/Haras-landingpage/haras-landingpage/static/media/burger.99249483ab99583eb7ce668bcd85ad12.svg",
-    "index.html": "/Haras-landingpage/haras-landingpage/index.html",
-    "main.04dd43d7.css.map": "/Haras-landingpage/haras-landingpage/static/css/main.04dd43d7.css.map",
-    "main.3939d93a.js.map": "/Haras-landingpage/haras-landingpage/static/js/main.3939d93a.js.map"
+    "main.css": "/Haras-landingpage/static/css/main.cd33880f.css",
+    "main.js": "/Haras-landingpage/static/js/main.7417fb45.js",
+    "static/media/stable.png": "/Haras-landingpage/static/media/stable.8056552e0c747fd0b652.png",
+    "static/media/headerBg.png": "/Haras-landingpage/static/media/headerBg.8776fe6227a9fadcc557.png",
+    "static/media/paddocks.png": "/Haras-landingpage/static/media/paddocks.4eb25a4c4b377748185a.png",
+    "static/media/jumping.png": "/Haras-landingpage/static/media/jumping.fb49c505c5d96338d836.png",
+    "static/media/manege.png": "/Haras-landingpage/static/media/manege.a16c74411d2298342f35.png",
+    "static/media/castle.png": "/Haras-landingpage/static/media/castle.893b2a6124d2001c4827.png",
+    "static/media/ride.png": "/Haras-landingpage/static/media/ride.f403ff72c818619a00e3.png",
+    "static/media/franck.png": "/Haras-landingpage/static/media/franck.b659ead7a9f8307f3779.png",
+    "static/media/Tangerine_Regular.ttf": "/Haras-landingpage/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
+    "static/media/Suzie.png": "/Haras-landingpage/static/media/Suzie.64b9e53133dc88ce27e8.png",
+    "static/media/Emma.png": "/Haras-landingpage/static/media/Emma.37abff8273a503dd8ee3.png",
+    "static/media/burger.svg": "/Haras-landingpage/static/media/burger.99249483ab99583eb7ce668bcd85ad12.svg",
+    "index.html": "/Haras-landingpage/index.html",
+    "main.cd33880f.css.map": "/Haras-landingpage/static/css/main.cd33880f.css.map",
+    "main.7417fb45.js.map": "/Haras-landingpage/static/js/main.7417fb45.js.map"
   },
   "entrypoints": [
-    "static/css/main.04dd43d7.css",
-    "static/js/main.3939d93a.js"
+    "static/css/main.cd33880f.css",
+    "static/js/main.7417fb45.js"
   ]
 }
