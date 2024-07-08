@@ -10,8 +10,8 @@ function Story() {
       >
         Histoire
       </h2>
-      <div className="flex flex-col lg:flex-row mb-4 text-center justify-center">
-        <div className="">
+      <div className="flex flex-col lg:flex-row mb-4 text-center justify-center items-center">
+        <div>
           <img
             src={castle}
             alt="Le domaine"
@@ -19,7 +19,7 @@ function Story() {
           ></img>
         </div>
         <div className="mb-4 lg:w-96 lg:mx-16 lg:mr-52">
-          <p className="py-1 md:py-4 px-10 md:px-16 lg:px-0 lg:w-[160%] text-2xl md:text-4xl lg:text-6xl leading-7 break-all">
+          <p className="py-1 md:py-4 px-10 md:px-16 lg:px-0 lg:w-[160%] text-2xl md:text-4xl lg:text-5xl leading-7 break-all">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             porttitor tristique scelerisque. Aliquam leo enim, tempus sit amet
             velit eu, varius tincidunt nisi. Maecenas viverra enim at nulla
