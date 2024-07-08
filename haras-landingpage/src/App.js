@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Team from './components/Team';
 import FloatingButton from './components/FloatingButton';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Contact />
       <Team />
       <FloatingButton />
+      <Footer />
     </div>
   );
 }
