@@ -5,6 +5,7 @@ import Installations from './components/Installations';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Team from './components/Team';
+import FloatingButton from './components/FloatingButton';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Contact />
       <Team />
+      <FloatingButton />
     </div>
   );
 }
